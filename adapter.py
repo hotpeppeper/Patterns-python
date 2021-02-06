@@ -1,4 +1,5 @@
 
+# 适配器模式
 
 class Synthesizer:
     def __init__(self, name) -> None:
