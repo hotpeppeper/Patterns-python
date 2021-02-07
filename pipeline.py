@@ -5,6 +5,7 @@ class Pipeline(object):
     def __init__(self, steps) -> None:
         super().__init__()
         self.steps = steps
+        self._validate_steps()
 
     def _validate_steps(self):
         _, trans = zip(**self.steps)
